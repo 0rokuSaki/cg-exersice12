@@ -74,12 +74,12 @@ void createWindow(int argc, char** argv)
  */
 Point twoLineIntersection(const Point& A, const Point& B, const Point& C, const Point& D)
 {
-    // Line RS is represented as a1*x + b1*y = c1
+    // Line AB is represented as a1*x + b1*y = c1
     const double a1 = A.y - B.y;
     const double b1 = B.x - A.x;
     const double c1 = a1 * A.x + b1 * A.y;
 
-    // Line PQ is represented as a2*x + b2*y = c2
+    // Line CD is represented as a2*x + b2*y = c2
     const double a2 = C.y - D.y;
     const double b2 = D.x - C.x;
     const double c2 = a2 * C.x + b2 * C.y;
