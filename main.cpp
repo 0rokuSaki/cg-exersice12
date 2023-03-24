@@ -1,6 +1,6 @@
 /*****************************************************************//**
  * \file   main.cpp
- * \brief  My solution for exersice ('Maman') 12 in Computer Graphics (20562) course
+ * \brief  My solution for Q1 in exersice ('Maman') 12 in Computer Graphics (20562) course
  * 
  * This program marks the intersection point of two lines in OpenGL.
  * You can change the value of the points in 'main' function.
